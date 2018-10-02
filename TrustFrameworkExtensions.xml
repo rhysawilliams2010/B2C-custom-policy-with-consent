@@ -22,12 +22,20 @@
       <TechnicalProfiles>
          <TechnicalProfile Id="login-NonInteractive">
           <Metadata>
-            <Item Key="client_id">ProxyIdentityExperienceFramework AppID here</Item>
-            <Item Key="IdTokenAudience">IdentityExperienceFramework AppID here</Item>
+            <!-- ProxyIdentityExperienceFrameworkAppId -->
+            <Item Key="client_id">138f1612-baa5-45d5-8dbd-bf74bde0881c</Item>
+            <!-- b2c-extensions-app -->
+            <Item Key="IdTokenAudience">e0605253-4dfc-44cc-ae5b-1645f25087d2</Item> 
+            <!-- IdentityExperienceFramework -->
+            <!-- <Item Key="IdTokenAudience">cc8a4742-99ce-4255-babf-608e50a6cd01</Item> -->
           </Metadata>
           <InputClaims>
-            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="ProxyIdentityExperienceFramework AppID here" />
-            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="IdentityExperienceFramework AppID here" />
+            <!-- ProxyIdentityExperienceFrameworkAppId -->
+            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="138f1612-baa5-45d5-8dbd-bf74bde0881c" />
+            <!-- b2c-extensions-app -->
+            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="e0605253-4dfc-44cc-ae5b-1645f25087d2" />
+            <!-- IdentityExperienceFramework -->
+            <!-- <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="cc8a4742-99ce-4255-babf-608e50a6cd01" /> -->
           </InputClaims>
         </TechnicalProfile>
       </TechnicalProfiles>

@@ -24,6 +24,7 @@
         <OutputClaim ClaimTypeReferenceId="givenName" />
         <OutputClaim ClaimTypeReferenceId="surname" />
         <OutputClaim ClaimTypeReferenceId="signInNames.emailAddress" PartnerClaimType="email"/>
+        <OutputClaim ClaimTypeReferenceId="extension_TermsOfUseConsented" />
    </OutputClaims>
       <SubjectNamingInfo ClaimType="sub" />
     </TechnicalProfile>

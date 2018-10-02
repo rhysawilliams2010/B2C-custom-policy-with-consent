@@ -455,7 +455,7 @@
         <TechnicalProfile Id="AAD-Common">
           <DisplayName>Azure Active Directory</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.AzureActiveDirectoryProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-          <!-- These are the keys of the B2C exttension default app, modify to fit to your tenant -->
+          <!-- These are the keys of the B2C extension default app, modify to fit to your tenant -->
           <Metadata>
             <Item Key="ApplicationObjectId">4c9d9759-9358-45ab-9b2c-0b9b817d8b46</Item>
             <Item Key="ClientId">e0605253-4dfc-44cc-ae5b-1645f25087d2</Item>
